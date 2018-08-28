@@ -1,0 +1,25 @@
+<div id="intro">
+<div id="introWrapper">
+<h1 class="page-title">
+<div class="page-title__text">{{ page.Name }}</div>
+<div class="page-title__subtitle">{{ page.description }}</div>
+</h1>
+
+<ul class="social-links">
+{% if site.author.email %}
+<a href="mailto:{{ site.author.email }}" class="social-links__entry" target="_blank">
+<i class="fa fa-envelope-square"></i>
+</a>
+{% endif %}
+{% if site.author.github %}
+<a href="https://github.com/{{ site.author.github }}" class="social-links__entry" target="_blank">
+<i class="fa fa-github"></i>
+</a>
+{% endif %}
+</ul>
+
+<ul class="social-links">
+<i class="social-links__entry fa fa-arrow-circle-down"></i>
+</ul>
+</div>
+</div>
