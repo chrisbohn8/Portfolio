@@ -23,13 +23,13 @@ layout: page
 <div class="post-technologies">
 {% assign postTechnologies = post.technologies | split: ", " %}
 {% for each in postTechnologies %}
-<i class="icon-{{ each }}"></i>
+<i id="tech" class="icon-{{ each }}"></i>
 {% endfor %}
 </div>
 <span class="post-description">{{ post.description }}</span>
 </div>
 <div class="projectImage">
-<span class="post-teaser__image"><img src="{{ post.image | absolute_url }}" alt="" /></span>
+<a class="image post-image" target="_blank" href="{{ post.urlpath }}"><img src="{{ post.image | absolute_url }}" alt="" /></a>
 <div class="projectLinks">
 <a class="projectButton" target="_blank" href="{{ post.urlpath }}">
 <button>Visit</button>

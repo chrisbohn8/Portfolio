@@ -47,6 +47,10 @@
   strong {
     color: #3C3836; }
 
+  h1 {
+	text-align: center;
+  }
+
   .fa {
 	color: #458588; }
 
@@ -128,6 +132,10 @@
     font-size: 2rem;
 	margin-bottom: 1%;
     color: #1D2021; }
+
+  .post-title:hover {
+	color: #458588;
+  }
 
   .post-teaser__date {
     font-size: 100%;
@@ -224,6 +232,23 @@
 .post-technologies {
 	display: flex;
 	font-size: 2em;
+	color: #928374;
+}
+
+.image img {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+.image:hover img {
+    -webkit-transform:scale(1.05); /* Safari and Chrome */
+    -moz-transform:scale(1.05); /* Firefox */
+    -ms-transform:scale(1.05); /* IE 9 */
+    -o-transform:scale(1.05); /* Opera */
+     transform:scale(1.05);
 }
 
 /* =Small screen *//*************************************************************/

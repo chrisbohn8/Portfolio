@@ -1,3 +1,5 @@
+/* Scroll Button */
+
 $(document).ready(function() {
 	//scroll animation
 	$('.fa-arrow-circle-down').click(function() {
