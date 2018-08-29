@@ -6,7 +6,7 @@ description: "Responsive blog powered by jekyll."
 image: "/assets/img/baileysbookclub.png"
 github: "https://github.com/chrisbohn8/blog"
 urlpath: "https://www.baileysbook.club"
-technologies: "html, css, javascript"
+technologies: "html, javascript, css"
 categories: Projects
 date:   2018-08-11 12:53:36 -0500
 ---

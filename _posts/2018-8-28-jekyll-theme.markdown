@@ -1,14 +1,13 @@
 ---
 layout: post
-title:  "East Nashville Beer Works Beer List"
+title:  "Jekyll Theme Template"
 subtitle: "Subtitle Here"
-description: "Rails web app with CRUD functionality."
-image: "/assets/img/enbw-beerlist.png"
-github: "https://github.com/chrisbohn8/Heroku-Beerlist"
-urlpath: "https://mighty-retreat-64474.herokuapp.com/"
+description: "Placeholder description"
+image: "/assets/img/jekyll-theme.png"
+github: "https://github.com/chrisbohn8/Portfolio"
+technologies: "html, javascript, css"
 categories: Projects
-technologies: "html, javascript, css, ruby-on-rails, postgres"
-date:   2018-08-11 12:53:36 -0500
+date:   2018-08-10 12:53:36 -0500
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel ultricies risus. Aliquam iaculis nisl erat, nec auctor erat iaculis eu. Proin facilisis eros in mollis convallis. Ut vehicula mollis risus. Suspendisse aliquet, lorem sed pharetra rhoncus, quam leo condimentum massa, ac pharetra purus lacus ut urna. Aliquam et felis consequat, eleifend dui a, iaculis erat. Fusce lobortis, nibh vestibulum volutpat feugiat, ligula enim dictum magna, non pulvinar mi metus a nisi. Duis nec dui vel ipsum porttitor pretium quis a eros. Nulla ullamcorper, neque ut sollicitudin imperdiet, nulla arcu tempus nisl, non mollis arcu lectus vel risus. In ac eros turpis. Curabitur ut blandit lectus, eget tempus nisl. Phasellus congue maximus dui vitae lobortis.

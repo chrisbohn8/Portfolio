@@ -137,6 +137,10 @@
 	color: #458588;
   }
 
+  .post-description {
+	margin-bottom: 1em;
+  }
+
   .post-teaser__date {
     font-size: 100%;
     float: right;

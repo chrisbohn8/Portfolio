@@ -31,12 +31,16 @@ layout: page
 <div class="projectImage">
 <a class="image post-image" target="_blank" href="{{ post.urlpath }}"><img src="{{ post.image | absolute_url }}" alt="" /></a>
 <div class="projectLinks">
+{% if post.urlpath %}
 <a class="projectButton" target="_blank" href="{{ post.urlpath }}">
 <button>Visit</button>
 </a>
+{% endif %}
+{% if post.github %}
 <a class="projectButton" target="_blank" href="{{ post.github }}">
 <button>GitHub</button>
 </a>
+{% endif %}
 </div>
 </div>
 </div>
