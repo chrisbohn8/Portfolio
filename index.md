@@ -1,6 +1,4 @@
 ---
-Name: Christopher Bohn
-description: Front End Developer
 layout: page
 ---
 
@@ -33,12 +31,12 @@ layout: page
 <div class="projectLinks">
 {% if post.urlpath %}
 <a class="projectButton" target="_blank" href="{{ post.urlpath }}">
-<button>Visit</button>
+Visit
 </a>
 {% endif %}
 {% if post.github %}
 <a class="projectButton" target="_blank" href="{{ post.github }}">
-<button>GitHub</button>
+GitHub
 </a>
 {% endif %}
 </div>
@@ -47,15 +45,3 @@ layout: page
 </ul>
 {% endfor %}
 {% endfor %}
-<ul class="social-links">
-{% if site.author.email %}
-<a href="mailto:{{ site.author.email }}" class="social-links__entry" target="_blank">
-<i class="fa fa-envelope-square"></i>
-</a>
-{% endif %}
-{% if site.author.github %}
-<a href="https://github.com/{{ site.author.github }}" class="social-links__entry" target="_blank">
-<i class="fa fa-github"></i>
-</a>
-{% endif %}
-</ul>

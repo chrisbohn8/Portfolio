@@ -23,8 +23,17 @@ baseurl: "/Portfolio" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 author:
+    name: Christopher Bohn
+    job-title: Front End Developer
+# Social Links
     email: cbohn8@gmail.com
     github: chrisbohn8
+#    gitlab:
+#    facebook:
+#    instagram:
+#    reddit:
+#    linkedin:
+#    twitter:
 
 # Build settings
 markdown: kramdown

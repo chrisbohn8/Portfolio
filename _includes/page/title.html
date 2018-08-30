@@ -1,21 +1,59 @@
 <div id="intro">
 <div id="introWrapper">
 <h1 class="page-title">
-<div class="page-title__text">{{ page.Name }}</div>
-<div class="page-title__subtitle">{{ page.description }}</div>
+<div class="page-title__text">{{ site.author.name }}</div>
+<div class="page-title__subtitle">{{ site.author.job-title }}</div>
 </h1>
 
 <ul class="social-links">
 {% if site.author.email %}
 <a href="mailto:{{ site.author.email }}" class="social-links__entry" target="_blank">
-<i class="fa fa-envelope-square"></i>
+<i class="fas fa-envelope-square"></i>
 </a>
 {% endif %}
+
 {% if site.author.github %}
 <a href="https://github.com/{{ site.author.github }}" class="social-links__entry" target="_blank">
-<i class="fa fa-github"></i>
+<i class="fab fa-github"></i>
 </a>
 {% endif %}
+
+{% if site.author.gitlab %}
+<a href="https://gitlab.com/{{ site.author.gitlab }}" class="social-links__entry" target="_blank">
+<i class="fab fa-gitlab"></i>
+</a>
+{% endif %}
+
+{% if site.author.facebook %}
+<a href="https://facebook.com/{{ site.author.facebook }}" class="social-links__entry" target="_blank">
+<i class="fab fa-facebook"></i>
+</a>
+{% endif %}
+
+{% if site.author.instagram %}
+<a href="https://instagram.com/{{ site.author.instagram }}" class="social-links__entry" target="_blank">
+<i class="fab fa-instagram"></i>
+</a>
+{% endif %}
+
+{% if site.author.reddit %}
+<a href="https://reddit.com/user/{{ site.author.reddit }}" class="social-links__entry" target="_blank">
+<i class="fab fa-reddit"></i>
+</a>
+{% endif %}
+
+{% if site.author.linkedin %}
+<a href="https://linkedin.com/in/{{ site.author.linkedin }}" class="social-links__entry" target="_blank">
+<i class="fab fa-linkedin"></i>
+</a>
+{% endif %}
+
+{% if site.author.twitter %}
+<a href="https://twitter.com/{{ site.author.twitter }}" class="social-links__entry" target="_blank">
+<i class="fab fa-twitter "></i>
+</a>
+{% endif %}
+
 </ul>
 
 <ul class="social-links">
